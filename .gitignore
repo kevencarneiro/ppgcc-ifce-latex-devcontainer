@@ -16,3 +16,4 @@
 *.ilg
 *.ind
 *.loa
+**/__latexindent_temp.tex
