@@ -16,4 +16,4 @@ services:
       # - ~/.gitconfig:/root/.gitconfig
     environment:
       - TZ=
-    entrypoint: zsh -c ":"
+    entrypoint: zsh -c "while sleep 100000; do :; done"
