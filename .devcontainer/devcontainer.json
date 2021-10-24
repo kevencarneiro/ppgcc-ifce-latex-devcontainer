@@ -9,7 +9,7 @@
     ],
     "shutdownAction": "stopCompose",
     "workspaceFolder": "/workspace",
-    "postCreateCommand": "sudo chmod -R 777 /workspace/temp/ && ln -s /workspace/temp/dissertacao.pdf /workspace/dissertacao.pdf",
+    "postCreateCommand": "sudo rm /workspace/dissertacao.pdf && sudo chmod -R 777 /workspace/temp/ && ln -s /workspace/temp/dissertacao.pdf /workspace/dissertacao.pdf",
     "extensions": [
         "james-yu.latex-workshop",
         // Git
