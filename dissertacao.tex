@@ -119,7 +119,6 @@
 
 % ---
 
-
 % ---
 % Configurações de aparência do PDF final
 
@@ -129,18 +128,18 @@
 % informações do PDF
 \makeatletter
 \hypersetup{
-     	%pagebackref=true,
-		pdftitle={\@title},
-		pdfauthor={\@author},
-    	pdfsubject={\imprimirpreambulo},
-	    pdfcreator={LaTeX with abnTeX2},
-		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico},
-		colorlinks=true,       		% false: boxed links; true: colored links
-    	linkcolor=blue,          	% color of internal links
-    	citecolor=blue,        		% color of links to bibliography
-    	filecolor=magenta,      		% color of file links
-		urlcolor=blue,
-		bookmarksdepth=4
+	%pagebackref=true,
+	pdftitle={\@title},
+	pdfauthor={\@author},
+	pdfsubject={\imprimirpreambulo},
+	pdfcreator={LaTeX with abnTeX2},
+	pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico},
+	colorlinks=true,       		% false: boxed links; true: colored links
+	linkcolor=blue,          	% color of internal links
+	citecolor=blue,        		% color of links to bibliography
+	filecolor=magenta,      		% color of file links
+	urlcolor=blue,
+	bookmarksdepth=4
 }
 \makeatother
 % ---
@@ -219,7 +218,8 @@
 \textual
 
 \include{capitulos/introducao} 				% Capítulo de introdução
-\include{capitulos/capitulo-exemplo} 			% Capitulo de exemplo
+\include{capitulos/capitulo-exemplo} 		% Capitulo de exemplo
+\include{capitulos/metodologia}
 
 % ----------------------------------------------------------
 % Finaliza a parte no bookmark do PDF
@@ -261,13 +261,13 @@
 % ---
 \begin{apendicesenv}
 
-% Imprime uma página indicando o início dos apêndices
-\partapendices
-% Insere os apêndices
-\include{apendices/apendice-a}
-%\include{apendices/apendice-b}
-%\include{apendices/apendice-c}
-%\include{apendices/apendice-d}
+	% Imprime uma página indicando o início dos apêndices
+	\partapendices
+	% Insere os apêndices
+	\include{apendices/apendice-a}
+	%\include{apendices/apendice-b}
+	%\include{apendices/apendice-c}
+	%\include{apendices/apendice-d}
 
 
 
@@ -285,13 +285,13 @@
 % ---
 \begin{anexosenv}
 
-% Imprime uma página indicando o início dos anexos
-\partanexos
-% Insere os anexos
-\include{anexos/anexo-a}
-%\include{anexos/anexo-b}
-%\include{anexos/anexo-c}
-%\include{anexos/anexo-d}
+	% Imprime uma página indicando o início dos anexos
+	\partanexos
+	% Insere os anexos
+	\include{anexos/anexo-a}
+	%\include{anexos/anexo-b}
+	%\include{anexos/anexo-c}
+	%\include{anexos/anexo-d}
 
 \end{anexosenv}
 

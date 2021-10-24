@@ -1,11 +1,15 @@
 {
     "name": "project-dev",
-    "dockerComposeFile": ["docker-compose.yml"],
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
     "service": "vscode",
-    "runServices": ["vscode"],
+    "runServices": [
+        "vscode"
+    ],
     "shutdownAction": "stopCompose",
     "workspaceFolder": "/workspace",
-    "postCreateCommand": "",
+    "postCreateCommand": "sudo chmod -R 777 /workspace/temp/ && ln -s /workspace/temp/dissertacao.pdf /workspace/dissertacao.pdf",
     "extensions": [
         "james-yu.latex-workshop",
         // Git
@@ -22,16 +26,17 @@
         // Latex settings
         "latex-workshop.chktex.enabled": true,
         "latex-workshop.latex.clean.subfolder.enabled": true,
-        "latex-workshop.latex.autoClean.run": "onBuilt",
+        "latex-workshop.latex.outDir": "%DIR%/temp",
+        // "latex-workshop.latex.autoClean.run": "onBuilt",
         "editor.formatOnSave": true,
         "files.associations": {
             "*.tex": "latex"
         },
         "latex-workshop.latexindent.args": [
             "-c",
-            "%DIR%/",
+            "%TMPDIR%/",
             "%TMPFILE%",
-            "-y=\"defaultIndent: '%INDENT%',onlyOneBackUp: 1\"",
-        ]
+            "-y=\"onlyOneBackUp: 1\"",
+        ],
     }
 }
