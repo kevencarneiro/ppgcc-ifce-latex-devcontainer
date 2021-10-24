@@ -6,6 +6,7 @@ services:
     image: latexdevcontainer
     volumes:
       - ../:/workspace
+      - temp:/workspace/temp
       # Docker socket to access Docker server
       # - /var/run/docker.sock:/var/run/docker.sock
       # SSH directory
@@ -16,4 +17,6 @@ services:
       # - ~/.gitconfig:/root/.gitconfig
     environment:
       - TZ=
-    entrypoint: zsh -c "while sleep 100000; do :; done"
+    entrypoint: zsh -c "while sleep 1000; do :; done"
+volumes:
+  temp:

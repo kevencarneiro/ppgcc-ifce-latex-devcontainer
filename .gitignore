@@ -17,3 +17,6 @@
 *.ind
 *.loa
 **/__latexindent_temp.tex
+*.synctex
+*.synctex(busy)
+temp/**/*
