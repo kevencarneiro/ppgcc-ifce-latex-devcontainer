@@ -2,6 +2,7 @@
 
 Modelo de dissertação baseado no template da [ABNTex2](https://github.com/abntex/abntex2) (Trabalho acadêmico). Esse projeto
 tem como finalidade facilitar a escrita da dissertação dos mestrandos do [Programa de Pós-Graduação em Ciência da Computação (PPGCC)](http://ppgcc.ifce.edu.br) do Instituto Federal do Ceará (IFCE).
+Este repositório estende o trabalho do [@omadson](https://github.com/omadson/modelo-dissertacao-ppgcc) adicionado as configurações do Container Latex no VSCode.
 
 ## Por onde começar?
 
