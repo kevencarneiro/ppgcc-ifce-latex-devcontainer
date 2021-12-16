@@ -13,6 +13,10 @@ tem como finalidade facilitar a escrita da dissertação dos mestrandos do [Prog
 6. Modifique o arquivo `informacoes.tex` com suas próprias informações
 7. _Hands-on_
 
+**_DICA:_** 
+> Clique no ícone de pré-visualização no lado direito da tela. A tela ficará dividida mostrando também o PDF compilado.
+
+
 ## Funcionalidades
 O projeto conta com algumas facilidades:
  - Arquivo contendo todas as informações em separado, dessa maneira você não se repete
