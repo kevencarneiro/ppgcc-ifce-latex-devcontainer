@@ -5,9 +5,11 @@ tem como finalidade facilitar a escrita da dissertação dos mestrandos do [Prog
 
 ## Por onde começar?
 
-1. Faça um clone do projeto `git clone https://github.com/omadson/modelo-dissertacao-ppgcc minha-dissertacao` ou baixe o [.ZIP](https://github.com/omadson/modelo-dissertacao-ppgcc/archive/master.zip)
-2. Modifique o arquivo `informacoes.tex` com suas próprias informações
-3. _Hands-on_
+1. Certifique-se de ter o Visual Studio Code e o Docker instalados na máquina
+2. Na página do repositório, clique em "Usar este template". Isto irá criar um repositório na sua conta do Github.
+3. Clone o repositório na sua máquina `git clone https://github.com/<usuário>/<repositório>.git`
+4. Modifique o arquivo `informacoes.tex` com suas próprias informações
+5. _Hands-on_
 
 ## Funcionalidades
 O projeto conta com algumas facilidades:
