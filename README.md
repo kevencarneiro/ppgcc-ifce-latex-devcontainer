@@ -5,11 +5,13 @@ tem como finalidade facilitar a escrita da dissertação dos mestrandos do [Prog
 
 ## Por onde começar?
 
-1. Certifique-se de ter o Visual Studio Code e o Docker instalados na máquina
+1. Certifique-se de ter o Visual Studio Code e o Docker instalados na máquina, bem como a extensão Remote - Containers
 2. Na página do repositório, clique em "Usar este template". Isto irá criar um repositório na sua conta do Github.
 3. Clone o repositório na sua máquina `git clone https://github.com/<usuário>/<repositório>.git`
-4. Modifique o arquivo `informacoes.tex` com suas próprias informações
-5. _Hands-on_
+4. Abra o projeto com o VSCode
+5. Na barra de comandos (Ctrl+Shift+P ou Command+Shift+P) escolha a opção "Remote-Containers: Reopen in container". Isso inicializará um container Docker com todas as dependências do LaTeX já instaladas
+6. Modifique o arquivo `informacoes.tex` com suas próprias informações
+7. _Hands-on_
 
 ## Funcionalidades
 O projeto conta com algumas facilidades:
